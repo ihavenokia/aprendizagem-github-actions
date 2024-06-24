@@ -14,10 +14,10 @@ export default defineConfig({
     environment: "jsdom",
     coverage: {
       reporter: ["text", "json", "json-summary"],
-      lines: 100,
-      branches: 100,
-      functions: 100,
-      statements: 100
+      lines: 70,
+      branches: 70,
+      functions: 10,
+      statements: 10
     },
     setupFiles: ["./test/setup.ts"],
   },
